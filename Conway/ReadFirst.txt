@@ -1,0 +1,102 @@
+
+Conway's Game of Life for Windows 98/2000 by Lucian Bogdan Cristache,
+Version 1.0.0, June 1, 2001. The idea of the algorithm is entirely mine, but
+the patterns were created by different Conway's game of LIFE enthusiasts.
+
+Thank you for downloading this program.
+
+What is the meaning of LIFE?
+----------------------------
+LIFE is actually not a game but one of the first cellular automatum. 
+It was invented in 1970 by the mathematician John Conway.
+ In a short time, each computer science man who deserves his title
+had his own version of "Life".It even became an obsession for John von 
+Newmann, which is the designer of the modern computer (and also a
+mathematician). If you're smart and creative, it can be very intellectually
+stimulating. It's a simulation game which can generate strange and 
+beautiful patterns, sometimes in complex and interesting ways. Yet
+the rules of Life are delightfully simple:
+
+- The game is played on a 2-dimensional grid. Each square, or "cell",
+    can be either "on" or "off".
+- If a cell is off and has 3 neighbors (out of 8), it will become alive
+    in the next clock tick.
+- If a cell is on and has 2 or 3 neighbors, it survives; otherwise, it
+    dies on the next clock tick.
+
+For example, consider the following pattern, where '.' represents an
+'off' cell and '*' represents an 'on' cell:
+. * .
+. * .
+. * .
+Notice that the cells in the middle on either side are off and have 3
+neighbors: they will come alive. But the two '*' cells on the ends each
+have just 1 neighbor; they will die of loneliness.
+
+So the next generation is:
+. . .
+* * *
+. . .
+
+A blank Life universe to a Life enthusiast is like a blank canvas to an artist. 
+It is full of possibilities. To know what to paint, you need ideas. Here are some
+ideas, starting with simple ideas to more complex ones:
+
+Draw a line, run it and see what happens.
+Load a pattern, run it and see what happens.
+Load the same pattern, delete some cells and see what happens.
+
+Most random patterns turn to chaos -- but even within the chaos are little bits of order.
+Some patterns form naturally: blinkers, blocks, beehives, etc., most of them stable. 
+There are an infinite number of stable patterns, but the more complicated ones have 
+almost no chance of coming out of the chaos. You are much better off building some 
+things yourself. And this is where the puzzles come in.
+
+What can you do with my program ?
+---------------------------------
+
+1)You can load one of the hit patterns from the \Life folder.
+2)You can draw lines by holding down the mouse left button 
+  and moving it over the grid.Also you can delete some cells
+  by holding down the right button .
+3)You can use the Mini Pattern Editor(click on the button captioned "Editor")
+  to edit small but more accurate patterns. Clicking on a dead cell brings it
+  to life :) and clicking on a living cell kills it :( .
+  Examples:
+	a) "rabbit"
+
+		.**.
+		*.*.
+		..*.
+	
+	b) "fish"
+
+		.****
+		*...*
+		....*
+		*..*.
+
+	c) "rabbits" (a small but vigurously growing population; if you have imagination
+	             you can see a male and female rabbit!)
+
+		*...***
+		***..*.
+		.*.....
+
+4)If you think that you found an interesting pattern you can save it.
+  When you click "Save" button the program will save the pattern from
+  which you started the simulation (because that counts).
+
+A little "bug":
+------------
+-Because I set the AutoRedraw property of the Form1 to False (and it should stay False),
+ it is possible to lose some cells when a Dialog box or other window goes over the Life window.
+ If this happens when you load a pattern, just reload it. Also I recommend  to
+ modify the zoom only before loading or drawing a pattern(this can have the same effect).
+
+If you find  more bugs or have any idea of improvement please let me know.
+
+
+Bogdan Cristache.
+
+

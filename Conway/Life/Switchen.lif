@@ -1,0 +1,13 @@
+#D  The smallest forever-growing
+#D  pattern in the Game of Life.
+-13 -3
+-11 -3
+-14 -2
+-13 -1
+-10 -1
+-11 0
+-10 0
+-9 0
+12 2
+13 2
+12 3
